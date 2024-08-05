@@ -1,0 +1,18 @@
+*{margin: 0;}
+a{
+  text-decoration: none;
+  color: white;
+}
+.nav{
+  background-color: brown;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+#favorite-icon {
+  color: #ccc; /* default color */
+}
+
+#favorite-icon.active {
+  color: #ff0000; /* red color */
+}
